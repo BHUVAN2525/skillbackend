@@ -1,0 +1,12 @@
+{
+  "name": "skillbackend",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node serve/index.js",
+    "postinstall": "cd serve && npm install --production"
+  }
+}
