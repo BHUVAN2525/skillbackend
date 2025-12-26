@@ -7,6 +7,7 @@
   },
   "scripts": {
     "start": "node serve/index.js",
+    "dev": "node serve/index.js",
     "postinstall": "cd serve && npm install --production"
   }
 }
